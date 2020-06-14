@@ -1,0 +1,82 @@
+body {
+  /* background-color: #2c3e50;
+  color: #34495e; */
+  background-color: whitesmoke;
+  color: whitesmoke;
+  margin-top: 7cm;
+}
+
+main{
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.js-clock-text{
+  font-size: 100px;
+  margin-bottom: auto;
+}
+
+.js-weather{
+  font-size: 20px;
+}
+
+ul{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+li {
+  color: white;
+  display: table-header-group; 
+  text-align: center;
+}
+span {
+  color: white;
+  background-color: yellowgreen;
+}
+
+.delBtn_class {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greetings {
+  display: none;
+  font-size: 40px;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}

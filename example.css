@@ -1,0 +1,30 @@
+<style type="text/css" media="screen">
+     body {
+          margin: 0;
+     }
+     #menu-centered {
+          background: #0075B8;
+          padding: 10px;
+          margin-bottom: 10px;
+      }
+      #menu-centered ul {
+           margin: 0;
+           padding: 0;
+           text-align: center;
+      }
+      #menu-centered li {
+           display: inline;
+           list-style: none;
+           padding: 10px 5px 10px 5px;
+      }
+      #menu-centered a {
+           font: normal 12px/24px Arial;
+           color: #fff;
+           text-decoration: none;
+           padding: 5px;
+           background: #57a8d6;
+      }
+      #menu-centered a:hover {
+           background: #5fb8eb;
+      }
+ </style>
